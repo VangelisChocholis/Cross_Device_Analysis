@@ -22,7 +22,7 @@ We have created a python script `clean_transform.py` to clean and transform the 
     - how many users use one device and which device?
     - how many use two or more devices? In this case we break down between 'web' only and how many both  'web' and 'android'. 
     
-    Additionally, we investigate perfomance metrics such as total Revenue, Transactions, Revenue per User, Transactions per User and Revenue per Transaction.
+    And most importanlty, we investigate **perfomance metrics** such as total Revenue, Transactions, Revenue per User, Transactions per User and Revenue per Transaction.
 
 - **Constructing an Interactive Dashboard**: We will communicate our results through an easy-to-use interactive dashboard. It is important to share the results with individuals from the business sector.
 
