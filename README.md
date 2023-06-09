@@ -27,3 +27,7 @@ We have created a python script `clean_transform.py` to clean and transform the 
 - **Constructing an Interactive Dashboard**: We will communicate our results through an easy-to-use interactive dashboard. It is important to share the results with individuals from the business sector.
 
 
+#### Acknowledgments
+I want to thank "Margera: Data Analytics Agency" (https://www.margera.co) for providing me the data.
+
+
