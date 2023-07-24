@@ -21,7 +21,11 @@ def clean(df):
 
 def transform(df):
     '''
-    We will define six audience types: one for each available device that includes users who use only that device, and two multi-device audiences containing users who use multiple devices. The two multi-device segments will be 'web only' and 'web & android.' We have chosen these specific types in order to compare the performance between the website and app. Unfortunately, we are unable to include 'ios' user data, which leaves only 'Android' data from  app.
+    We will define six audience types: one for each available device
+    that includes users who use only that device, and two multi-device audiences 
+    containing users who use multiple devices. The two multi-device segments will be 'web only' and 'web & android.'
+    We have chosen these specific types in order to compare the performance between the website and app. Unfortunately, 
+    we are unable to include 'ios' user data, which leaves only 'Android' data from  app.
     ''' 
     # we add an extra column indicating the type of audience for each users.
     # for single device users
