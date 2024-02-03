@@ -3,7 +3,8 @@ import plotly.express as px
 import plotly.subplots as sp
 
 
-def make_bar_charts(pvt_tbl, x_, y_list):
+
+def make_bar_charts_old(pvt_tbl, x_, y_list):
     # y_list : list of pvt_tbl column names
     # returns plotly Figure
     fig = sp.make_subplots(rows=1, cols=len(y_list))
@@ -14,7 +15,3 @@ def make_bar_charts(pvt_tbl, x_, y_list):
         fig.update_yaxes(title_text=Y, row=1, col=i+1)
     fig.update_layout(height=400, width=1100)
     return fig
-
-
-
-    
