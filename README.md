@@ -9,7 +9,8 @@ The [`cross_device_analysis.ipynb`](https://github.com/VangelisChocholis/Cross_D
 
 ## Results
 
-The analysis in the notebook offers insights into data across multiple devices, with visualizations and detailed explanations about selecting suitable perfomance indicators. If you do not want to dive into the jupyter notebook, the following Power B.I. dashboard summarizes the results. 
+The analysis in the notebook provides insights into data across multiple devices, with visualizations and detailed explanations about selecting suitable perfomance indicators. The summarized results are shown in the following Power BI dashboard below.
+
 
 ![Alt Text](images/powerbi_dashboard.jpg)
 
