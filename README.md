@@ -1,36 +1,17 @@
-### The Data
-We have a real-world dataset from a company that contains information about online purchases. We have 46,152 rows , each of them representing a unique transaction. Specifically, the company operates both a web page and a mobile app, through which users can initiate transactions using any of the following devices;
-- desktop (web)
-- tablet (web)
-- mobile (web)
-- android (app)
-- ios (app)  
+# Cross Device Analysis
 
-### The Goal: 
-The main goal of this project is to provide insights into the performance of different customer segments. Specifically, we will segment users based on the devices they use to make purchases and then investigate different performance metrics to identify which ones must be carefully examined by business stakeholders.
+This project involves the analysis of data across multiple devices to understand patterns, relationships, and anomalies.
 
-We will begin with a data cleaning and transformation process and then proceed to analyze and visualize our findings.
+## Overview
 
-### User Segmets
-We classify users based on the devices they use to make transactions. We define an audience type for every available device (since we do not have user data for iOS, we have to ignore this audience type). The four audiences will contain single-device users, i.e., users that made transactions only through one device. We also define two multi-device segments: one for users who made transactions using the company's website, utilizing more than one device (desktop, mobile, tablet), and the other multi-device segment is for transactions made through both the website and the company's Android app.
-
-### Workflow
-Our workflow is as follows: 
-- **Data Cleaning & Transformation**:          
-We have created a python script `clean_transform.py` to clean and transform the data. The `transform` function that is provided creates an extra column based on the segment that each user belongs to.
+The `cross_device_analysis.ipynb` notebook contains the entire workflow of the analysis, from data loading and cleaning to exploratory data analysis (EDA), data analysis, and visualization of results.
 
 
-- **Extracting Insights**: We explore data to answer questions like;
-    - what is the number of transactions per device? 
-    - how many users use one device and which device?
-    - how many use two or more devices? In this case we break down between 'web' only and how many both  'web' and 'android'. 
-    
-    And most importanlty, we investigate **perfomance metrics** such as total Revenue, Transactions, Revenue per User, Transactions per User and Revenue per Transaction.
+## Results
 
-- **Constructing an Interactive Dashboard**: We will communicate our results through an easy-to-use interactive dashboard using Power BI. It is important to share the results with individuals from the business sector.
+The analysis in the notebook offers insights into data across multiple devices, with visualizations and detailed explanations.
 
 
-#### Acknowledgments
-I want to thank "Margera: Data Analytics Agency" (https://www.margera.co) for providing me the data.
 
-
+## Acknowledgments
+I want to thank [Margera](https://www.margera.co) Data Analytics Agency for providing me the data.
